@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 
 function Card({ card, RemoveCard, EditCard, cards,state ,cardStatus }) {
   const [status, setStatus] = useState(cardStatus.status);
+
+  
   console.log(cardStatus,"cardobj")
 
   const [editMode, setEditMode] = useState(false);
@@ -29,7 +31,7 @@ function Card({ card, RemoveCard, EditCard, cards,state ,cardStatus }) {
   };
 
   return (
-    <div className='col-4 mt-5'>
+    <div className='col-lg-4 col-md-6 col-sm-12 mt-2 mb-3'>
       <div className="card" style={{ width: "23rem", backgroundColor: "#B7E5B4",paddingLeft: "10px",height:"13rem",paddingTop:"10px" }}>
         <div className="card-body">
           {editMode ? (
