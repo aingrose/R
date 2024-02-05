@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width:576px){
+  .btn.input.btn-success{
+    margin-top: 20px;
+    margin-left: 20px;
+  } 
+  .fil-text {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .fil-text2{
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .btn.input.btn-danger.dropdown-toggle {
+   margin-bottom: -auto;
+  }
+  .form-text{
+    margin-left: 20px;
+  }
+}
