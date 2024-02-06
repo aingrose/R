@@ -14,14 +14,14 @@ function Filter({ filter }) {
   return (
     <div className='col d-flex justify-content-evenly mt-4'>
       <div>
-        <h2>MY TODOS</h2>
+        <h2 className='fil-text'>MY TODOS</h2>
       </div>
       <div className='d-flex '>
-        <h2 className='me-2'>STATUS FILTER : </h2>
+        <h2 className='fil-text2 me-2'>STATUS FILTER : </h2>
 
         <div class="dropdown ">
           <button
-            class="btn btn-danger dropdown-toggle m-1 me-1 mb-5"
+            class="btn input btn-danger dropdown-toggle m-1 me-1 mb-5"
             style={{ backgroundColor: filterstate === "Completed" ? "green" : "red" }}
             type="button"
             data-bs-toggle="dropdown"
@@ -52,4 +52,4 @@ function Filter({ filter }) {
   );
 }
 
-export default Filter;
+export default Filter  
