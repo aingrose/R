@@ -32,7 +32,7 @@ function Card({ card, RemoveCard, EditCard, cards,state ,cardStatus }) {
 
   return (
     <div className='col-lg-4 col-md-6 col-sm-12 mt-2 mb-3'>
-      <div className="card" style={{ width: "23rem", backgroundColor: "#B7E5B4",paddingLeft: "10px",height:"13rem",paddingTop:"10px" }}>
+      <div className="card" style={{ width: "20rem", backgroundColor: "#B7E5B4",paddingLeft: "10px",height:"13rem",paddingTop:"10px" }}>
         <div className="card-body">
           {editMode ? (
             <>
