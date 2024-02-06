@@ -19,8 +19,8 @@ function Input({addtocart}) {
 <div className='row'>
   <div className='col'>
     
-    <input type='text' style={{padding:"7px 80px",fontSize:"15px"}} className='form-text me-2 rounded ' value={textName} onChange={(e)=>  setTextName(e.target.value)} placeholder='Todo Name'></input>
-    <input type='text'  style={{padding:"7px 80px",fontSize:"15px"}} className='form-text me-2 rounded ' value={textDesc} onChange={(e)=> setTextDesc(e.target.value)} placeholder='ToDo Description'></input>
+    <input type='text' style={{padding:"7px 60px",fontSize:"15px"}} className='form-text me-2 rounded ' value={textName} onChange={(e)=>  setTextName(e.target.value)} placeholder='Todo Name'></input>
+    <input type='text'  style={{padding:"7px 60px",fontSize:"15px"}} className='form-text me-2 rounded ' value={textDesc} onChange={(e)=> setTextDesc(e.target.value)} placeholder='ToDo Description'></input>
     <button className='btn input btn-success mb-2 p-2' onClick={() => {textName && textDesc !== "" ? click() : alert("Please fill in both fields"); }} >Add Todo</button>
   </div>
 </div> 
