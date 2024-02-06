@@ -36,7 +36,6 @@
     transform: rotate(360deg);
   }
 }
-
 @media screen and (max-width:576px){
   .btn.input.btn-success{
     margin-top: 20px;
